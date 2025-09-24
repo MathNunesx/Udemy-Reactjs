@@ -1,4 +1,4 @@
-function Acomodacao(){
+export function Acomodacao(){
     return (
         <div>
     <span> -- Imagem Acomodação --</span>
@@ -11,14 +11,12 @@ function Acomodacao(){
 export default function Page(){
     // return Acomodacao()
 
-     const nome = `Roland`
     return (
         <div>
          {Acomodacao()}
          <hr />
          {Acomodacao()}
         <hr />
-        {nome}
         </div>
     )
 }
