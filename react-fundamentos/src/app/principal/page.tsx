@@ -1,19 +1,12 @@
-export function Acomodacao(){
-    return (
-        <div>
-    <span> -- Imagem Acomodação --</span>
-     <h1> São Roque, Brasil</h1>
-     <p>Desc. Perto da Vinicula Goes</p>
-     </div>
-    )
-}
+import { Acomodacao, Cabecalho, Menu } from "@/components/interface"
 
-export default function Page(){
+export default function Botao(){
     // return Acomodacao()
 
     return (
         <div>
-         {Acomodacao()}
+         {Cabecalho() }
+  
          <hr />
          {Acomodacao()}
         <hr />
