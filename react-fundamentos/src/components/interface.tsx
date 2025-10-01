@@ -15,10 +15,12 @@ export function Menu(){
         </div>
     )
 }
-export function Cabecalho(){
+export function Cabecalho(props: any){
     return (
         <div className="bg-blue-900">
             <h1>Logo</h1>
+            <p>{props.titulo}</p>
+            <p>{props.preco}</p>
             {Menu()}
         </div>
     )
