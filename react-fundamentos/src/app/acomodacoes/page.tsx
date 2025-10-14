@@ -1,4 +1,4 @@
-import { Acomodacao, Cabecalho, Conteudo, Menu, Rodape } from "@/components/interface"
+import { Acomodacao, Cabecalho, Conteudo, Menu, Rodape } from "@/components/comp-interface"
 
 export default function Botao(){
     // return Acomodacao()

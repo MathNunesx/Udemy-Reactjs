@@ -1,4 +1,4 @@
-import { Cabecalho } from "@/components/interface"
+import { Cabecalho } from "@/components/comp-interface"
 import "@/app/style.css"
 export default function Page (){
     return (

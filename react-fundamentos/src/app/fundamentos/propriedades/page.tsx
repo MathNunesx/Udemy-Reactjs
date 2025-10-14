@@ -1,4 +1,4 @@
-import { Acomodacao, Cabecalho, Menu } from "@/components/interface";
+import { Acomodacao, Cabecalho, Menu } from "@/components/comp-interface";
 import "../app/globals.css"
 export default function Page(){
     return(

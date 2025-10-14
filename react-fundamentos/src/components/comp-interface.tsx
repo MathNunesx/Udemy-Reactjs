@@ -1,5 +1,17 @@
 import Link from "next/link"
 
+interface CabecalhoProps{
+    titulo: string
+    subtitulo: string
+    className: string
+
+}
+
+interface ConteudoProps{
+    children: any
+
+}
+
 export function Acomodacao(){
     return (
         <div>
@@ -28,7 +40,7 @@ export function MenuItem(props: any){
         </Link>
     )
 }
-export function Cabecalho(props: any){
+export function Cabecalho(props: CabecalhoProps){
             const classe = props.className ?? ""
 
     return (
@@ -45,7 +57,7 @@ export function Rodape(){
         </div>
     )
 }
-export function Conteudo(props: any){
+export function Conteudo(props: ConteudoProps){
    console.log(props)
     return (
         <div className="bg-gray-900">
