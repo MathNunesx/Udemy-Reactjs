@@ -5,7 +5,7 @@ export default function Botao(){
 
     return (
         <div>
-            <Cabecalho titulo = "AirBnb" subtitulo="Inicio"/>
+            <Cabecalho titulo = "AirBnb" subtitulo="Inicio" className="bg-gray-800"/>
 
             <Menu/>
 
