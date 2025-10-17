@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.myText{
+  /* background-color: grey; */
+
+  @apply bg-blue-950 p-5;
+  @apply hover:bg-blue-900  
+}
