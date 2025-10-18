@@ -4,6 +4,7 @@ export default function Entrada(){
             <h1> Entrada de Dados</h1>
             <input className="campo-text"
              type="text"
+             
               />
         </div>
     )
