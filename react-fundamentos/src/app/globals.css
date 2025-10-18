@@ -32,3 +32,7 @@ body {
   @apply hover:bg-blue-900  
 }
 
+.campo-text{
+  @apply bg-gray-600;
+  @apply rounded-md;
+}
