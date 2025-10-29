@@ -37,8 +37,8 @@ body {
   @apply rounded-md;
 }
 
-.botao {
+button {
   @apply bg-gray-600;
-  @apply p-2;
+  @apply p-5;
   @apply rounded-md text-amber-300 hover:bg-gray-800;
 }
